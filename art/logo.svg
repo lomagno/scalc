@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter5188">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.1085393"
+         id="feGaussianBlur5190" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.64426488"
+     inkscape:cx="453.44905"
+     inkscape:cy="488.62851"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1375"
+     inkscape:window-height="876"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect4224"
+       width="783.83911"
+       height="939.05475"
+       x="-20.17802"
+       y="38.803913"
+       inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/seasonal_index_calculator/img/logo-150x180.png"
+       inkscape:export-xdpi="17.219999"
+       inkscape:export-ydpi="17.219999" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff5555;fill-opacity:0;stroke:none"
+       id="path4969"
+       sodipodi:sides="3"
+       sodipodi:cx="-123.76423"
+       sodipodi:cy="-1483.3654"
+       sodipodi:r1="262.67765"
+       sodipodi:r2="131.33883"
+       sodipodi:arg1="0.96455866"
+       sodipodi:arg2="2.0117562"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 25.90414,-1267.4975 -205.7248,-97.0926 -205.72478,-97.0926 186.94702,-129.6166 186.947039,-129.6166 18.7777752,226.7092 z"
+       inkscape:transform-center-x="56.056426"
+       inkscape:transform-center-y="-10.841345" />
+    <text
+       xml:space="preserve"
+       style="font-size:240.23664856px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5188);font-family:Sans"
+       x="79.207329"
+       y="-1041.8779"
+       id="text5184"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5186"
+         x="79.207329"
+         y="-1041.8779"
+         style="fill:#000000;fill-opacity:1" /></text>
+    <g
+       id="g4421"
+       transform="translate(-1537.9919,-60.153706)"
+       inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/seasonal_index_calculator/img/logo-150x180.png"
+       inkscape:export-xdpi="17.219999"
+       inkscape:export-ydpi="17.219999">
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-1-8-2-6"
+         d="m 1823.394,222.52284 c -129.7587,37.16767 -224.7281,156.6806 -224.7281,298.38131 l 155.176,0 c 0,-85.70105 69.4746,-155.17602 155.176,-155.17602 L 1823.394,222.52284 z"
+         style="fill:#214478;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-8-68-9-6-2"
+         d="m 1894.6279,162.70877 c -29.7018,0 -58.4252,4.18009 -85.6239,11.97073 l 85.6239,143.20529 0,-155.17602 z"
+         style="fill:#ff6600;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-9-9-8-6-4"
+         d="M 2207.3993,435.28015 C 2170.2316,305.52152 2050.7187,210.55203 1909.018,210.55203 l 0,155.17601 c 85.701,0 155.176,69.4747 155.176,155.17603 l 143.2053,-85.62392 z"
+         style="fill:#214478;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-8-6-3-4-5-7"
+         d="m 2267.2133,506.51411 c 0,-29.70185 -4.1801,-58.4252 -11.9707,-85.62392 l -143.2053,85.62392 155.176,0 z"
+         style="fill:#5f8dd3;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-9-6-1-2-4-3"
+         d="M 1994.6419,819.28548 C 2124.4005,782.11781 2219.37,662.60487 2219.37,520.90415 l -155.176,0 c 0,85.70106 -69.4747,155.17603 -155.176,155.17603 l 85.6239,143.2053 z"
+         style="fill:#214478;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-8-6-8-1-5-1-8"
+         d="m 1923.4079,879.09954 c 29.7019,0 58.4252,-4.18009 85.6239,-11.97072 l -85.6239,-143.2053 0,155.17602 z"
+         style="fill:#5f8dd3;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-9-2-7-1-6-0"
+         d="m 1610.6367,606.52798 c 37.1676,129.75872 156.6806,224.72813 298.3813,224.72813 l 0,-155.17602 c -85.7011,0 -155.1761,-69.47461 -155.1761,-155.17602 l -143.2052,85.62391 z"
+         style="fill:#214478;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="1.78"
+         inkscape:export-xdpi="1.78"
+         inkscape:export-filename="/home/giovanni/Documents/Ricerca turismo/seasonal_index_calculator/art/logo-16x16.png"
+         id="path4944-8-6-1-9-9-3-9"
+         d="m 1550.8226,535.29412 c 0,29.70184 4.1801,58.42519 11.9707,85.62391 l 143.2053,-85.62391 -155.176,0 z"
+         style="fill:#5f8dd3;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="matrix(1.1635355,0,0,1.1635355,-288.56118,289.47983)"
+         id="g4412">
+        <text
+           xml:space="preserve"
+           style="font-size:158.68865967px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans"
+           x="1575.3561"
+           y="586.5979"
+           id="text5216-6-5-6-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5218-4-9-7-0"
+             x="1575.3561"
+             y="586.5979"
+             style="font-size:158.68865967px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;fill-opacity:1;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'">S</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:90.55328369px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#214478;fill-opacity:1;stroke:none;font-family:Sans"
+           x="1812.1416"
+           y="587.38538"
+           id="text5216-5-7-7-2-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5218-1-5-4-7-5"
+             x="1812.1416"
+             y="587.38538"
+             style="font-size:90.55328369px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#214478;fill-opacity:1;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'">ALC <tspan
+   style="font-style:italic"
+   id="tspan4400">1.0</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:158.68865967px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#214478;fill-opacity:1;stroke:none;font-family:Sans"
+           x="1689.3427"
+           y="586.52039"
+           id="text5216-2-0-7-2-4"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5218-5-0-3-6-8"
+             x="1689.3427"
+             y="586.52039"
+             style="font-size:158.68865967px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#214478;fill-opacity:1;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'">C</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
