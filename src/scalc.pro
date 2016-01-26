@@ -52,7 +52,13 @@ FORMS    += mainwindow.ui \
 RESOURCES += \
     resources.qrc
 
-win32:RC_FILE = application_icon.rc
+win32 {
+    RC_FILE = application_icon.rc
+}
+
+unix:macx {
+    ICON = application_icon.icns
+}
 
 OTHER_FILES += \
     application_icon.rc
