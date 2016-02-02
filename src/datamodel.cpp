@@ -1,4 +1,5 @@
 #include "datamodel.h"
+#include <QColor>
 
 DataModel::DataModel(QObject *parent) :
     QAbstractTableModel(parent)
@@ -22,7 +23,24 @@ int DataModel::columnCount(const QModelIndex &parent) const
 
 QVariant DataModel::data(const QModelIndex &index, int role) const
 {
-    if (role == Qt::DisplayRole || role == Qt::EditRole)
+    if (role == Qt::DisplayRole)
+    {
+        int row = index.row();
+        switch (index.column())
+        {
+            case 0:
+                return m_data.at(row).first;
+            case 1:
+                {
+                QString text;
+                text.sprintf("%.3f", m_data.at(row).second);
+                return text;
+                }
+            default:
+                return QVariant();
+        }
+    }
+    else if (role == Qt::EditRole)
     {
         int row = index.row();
         switch (index.column())
@@ -44,9 +62,9 @@ QVariant DataModel::data(const QModelIndex &index, int role) const
                 return Qt::black;
             case 1:
                 if (m_data.at(row).second > 0)
-                    return Qt::red;
+                    return QColor(255, 127, 42);
                 else if (m_data.at(row).second < 0)
-                    return Qt::green;
+                    return QColor(53, 113, 200);
                 else
                     return QVariant();
             default:

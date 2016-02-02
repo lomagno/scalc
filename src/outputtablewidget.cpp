@@ -4,11 +4,14 @@
 
 OutputTableWidget::OutputTableWidget(QWidget *parent) :
     QTableWidget(parent)
-{
+{    
     // Context menu
     contextMenu = new QMenu;
     copyAction = new QAction(QIcon(":/icons/img/edit-copy.png"), "Copy", this);
     connect(copyAction, SIGNAL(triggered()), this, SLOT(onCopyAction()));
+    copyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_C));
+    copyAction->setShortcutContext(Qt::WidgetShortcut);
+    addAction(copyAction);
     contextMenu->addAction(copyAction);
     contextMenu->addSeparator();
     contextMenu->addAction(

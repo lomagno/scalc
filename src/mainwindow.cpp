@@ -85,15 +85,23 @@ void MainWindow::onDataChanged()
 
 void MainWindow::updateStatusBar()
 {
+    const char *format = "%.3f";
+    QString total = QString().sprintf(format, m_dataModel->total());
+    QString mean = QString().sprintf(format, m_dataModel->mean());
+    QString min = QString().sprintf(format, m_dataModel->min());
+    QString max = QString().sprintf(format, m_dataModel->max());
+    QString range = QString().sprintf(format, m_dataModel->range());
+    QString nOfHigh = QString("%1").arg(m_dataModel->highCount());
+    QString nOfLow = QString("%1").arg(m_dataModel->lowCount());
     ui->statusBar->showMessage(
-        QString("Total: %1 | Mean: %2 | Min: %3 | Max: %4 | Range: %5 | High: %6 | Low: %7")
-            .arg(m_dataModel->total())
-            .arg(m_dataModel->mean())
-            .arg(m_dataModel->min())
-            .arg(m_dataModel->max())
-            .arg(m_dataModel->range())
-            .arg(m_dataModel->highCount())
-            .arg(m_dataModel->lowCount())
+        QString("Total: %1 | Mean: %2 | Min: %3 | Max: %4 | Range: %5 | N. of high: %6 | N. of low: %7")
+            .arg(total)
+            .arg(mean)
+            .arg(min)
+            .arg(max)
+            .arg(range)
+            .arg(nOfHigh)
+            .arg(nOfLow)
     );
 }
 

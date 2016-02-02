@@ -11,9 +11,15 @@ DataTableView::DataTableView(QWidget *parent) :
     // Context menu
     contextMenu = new QMenu;
     copyAction = new QAction(QIcon(":/icons/img/edit-copy.png"), "Copy", this);
+    copyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_C));
+    copyAction->setShortcutContext(Qt::WidgetShortcut);
+    addAction(copyAction);
     connect(copyAction, SIGNAL(triggered()), this, SLOT(onCopyAction()));
     contextMenu->addAction(copyAction);
     pasteAction = new QAction(QIcon(":/icons/img/edit-paste.png"), "Paste", this);
+    pasteAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_V));
+    pasteAction->setShortcutContext(Qt::WidgetShortcut);
+    addAction(pasteAction);
     connect(pasteAction, SIGNAL(triggered()), this, SLOT(onPasteAction()));
     contextMenu->addAction(pasteAction);
     contextMenu->addSeparator();
@@ -54,6 +60,8 @@ void DataTableView::contextMenuEvent(QContextMenuEvent *event)
 
 void DataTableView::onCopyAction()
 {
+    qDebug() << "onCopyAction()";
+
     // Selection
     QItemSelection itemSelection = this->selectionModel()->selection();
     if (itemSelection.isEmpty())

@@ -16,6 +16,7 @@ QWidget *DataDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem 
     QDoubleSpinBox *editor = new QDoubleSpinBox(parent);
     editor->setMinimum(-999999999);
     editor->setMaximum(999999999);
+    editor->setDecimals(3);
     return editor;
 }
 
