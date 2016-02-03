@@ -26,7 +26,7 @@ CostMatrixTableView::CostMatrixTableView(QWidget *parent) :
     contextMenu->addAction(pasteAction);
     contextMenu->addSeparator();
     contextMenu->addAction(
-        QIcon(":/icons/img/autofit-width-16x16.png"),
+        QIcon(":/icons/img/autofit-width.png"),
         "Resize columns to contents",
         this, SLOT(resizeColumnsToContents()));
 }
@@ -79,8 +79,6 @@ void CostMatrixTableView::keyPressEvent(QKeyEvent *keyEvent)
 
 void CostMatrixTableView::onCopyAction()
 {
-    qDebug() << "onCopyAction()";
-
     // Selection
     QItemSelection itemSelection = this->selectionModel()->selection();
     if (itemSelection.isEmpty())

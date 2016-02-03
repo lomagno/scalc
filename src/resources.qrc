@@ -1,17 +1,16 @@
 <RCC>
     <qresource prefix="/icons">
-        <file>img/document-new-16x16.png</file>
-        <file>img/system-log-out-16x16.png</file>
-        <file>img/edit-clear-16x16.png</file>
-        <file>img/calculate-16x16.png</file>
-        <file>img/logo-16x16.png</file>
-        <file>img/logo-150x180.png</file>
-        <file>img/distance-matrix-16x16.png</file>
-        <file>img/u-matrix-16x16.png</file>
-        <file>img/symmetric-mode-16x16.png</file>
-        <file>img/info-16x16.png</file>
         <file>img/edit-copy.png</file>
-        <file>img/autofit-width-16x16.png</file>
         <file>img/edit-paste.png</file>
+        <file>img/media-playback-start.png</file>
+        <file>img/autofit-width.png</file>
+        <file>img/dialog-information.png</file>
+        <file>img/distance-matrix.png</file>
+        <file>img/document-new.png</file>
+        <file>img/edit-clear.png</file>
+        <file>img/symmetric-mode.png</file>
+        <file>img/system-log-out.png</file>
+        <file>img/u-matrix.png</file>
+        <file>img/logo-150x180.png</file>
     </qresource>
 </RCC>

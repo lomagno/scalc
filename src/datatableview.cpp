@@ -24,7 +24,7 @@ DataTableView::DataTableView(QWidget *parent) :
     contextMenu->addAction(pasteAction);
     contextMenu->addSeparator();
     contextMenu->addAction(
-        QIcon(":/icons/img/autofit-width-16x16.png"),
+        QIcon(":/icons/img/autofit-width.png"),
         "Resize columns to contents",
         this, SLOT(resizeColumnsToContents()));
 
@@ -60,8 +60,6 @@ void DataTableView::contextMenuEvent(QContextMenuEvent *event)
 
 void DataTableView::onCopyAction()
 {
-    qDebug() << "onCopyAction()";
-
     // Selection
     QItemSelection itemSelection = this->selectionModel()->selection();
     if (itemSelection.isEmpty())
@@ -100,19 +98,30 @@ void DataTableView::onPasteAction()
 
     // Get text from clipboard
     QString text = qApp->clipboard()->text();
-    QStringList splittedText = text.split(QRegExp("(\\r\\n)|(\\n)"));
+    QStringList textRows = text.split(QRegExp("(\\r\\n)|(\\n)"));
+
+    // Rows and columns count
+    int nRows = textRows.size();
+    int nColumns = textRows.at(0).split("\t").size();
+
+    // Check if paste data has only one column
+    if (nColumns != 1)
+    {
+        QMessageBox::warning(this, "SCalc",
+            "Can not paste data. Maybe you tried to paste data which has not only one column");
+        return;
+    }
 
     // Convert text to list of double precision numbers
     QList<double> data;
-    int nTokens = splittedText.size();
     bool isConversionOk;
-    for (int i=0; i<nTokens; ++i)
+    for (int i=0; i<nRows; ++i)
     {
-        QString token = splittedText.at(i);
+        QString token = textRows.at(i);
 
         // Check if last token is an empty string.
         // For example the last data copied from LibreOffice Calc is an empty string.
-        if (token.isEmpty() && i==nTokens-1)
+        if (token.isEmpty() && i==nRows-1)
             break;
 
         double value = token.toDouble(&isConversionOk);

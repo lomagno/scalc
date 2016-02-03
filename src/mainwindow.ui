@@ -14,7 +14,7 @@
    <string>SCalc 1.0</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resources.qrc">
+   <iconset>
     <normaloff>:/icons/img/logo-16x16.png</normaloff>:/icons/img/logo-16x16.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
@@ -33,7 +33,7 @@
          <item>
           <widget class="QLabel" name="dataLabel">
            <property name="text">
-            <string>Data</string>
+            <string>Pattern</string>
            </property>
           </widget>
          </item>
@@ -184,7 +184,7 @@ p, li { white-space: pre-wrap; }
   <action name="loadDistanceMatrixAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/distance-matrix-16x16.png</normaloff>:/icons/img/distance-matrix-16x16.png</iconset>
+     <normaloff>:/icons/img/distance-matrix.png</normaloff>:/icons/img/distance-matrix.png</iconset>
    </property>
    <property name="text">
     <string>Load distance matrix</string>
@@ -193,7 +193,7 @@ p, li { white-space: pre-wrap; }
   <action name="calculateAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/calculate-16x16.png</normaloff>:/icons/img/calculate-16x16.png</iconset>
+     <normaloff>:/icons/img/media-playback-start.png</normaloff>:/icons/img/media-playback-start.png</iconset>
    </property>
    <property name="text">
     <string>Calculate</string>
@@ -211,7 +211,7 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/symmetric-mode-16x16.png</normaloff>:/icons/img/symmetric-mode-16x16.png</iconset>
+     <normaloff>:/icons/img/symmetric-mode.png</normaloff>:/icons/img/symmetric-mode.png</iconset>
    </property>
    <property name="text">
     <string>Symmetric mode</string>
@@ -220,7 +220,7 @@ p, li { white-space: pre-wrap; }
   <action name="loadUMatrixAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/u-matrix-16x16.png</normaloff>:/icons/img/u-matrix-16x16.png</iconset>
+     <normaloff>:/icons/img/u-matrix.png</normaloff>:/icons/img/u-matrix.png</iconset>
    </property>
    <property name="text">
     <string>Load U matrix</string>
@@ -229,7 +229,7 @@ p, li { white-space: pre-wrap; }
   <action name="clearOutputAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/edit-clear-16x16.png</normaloff>:/icons/img/edit-clear-16x16.png</iconset>
+     <normaloff>:/icons/img/edit-clear.png</normaloff>:/icons/img/edit-clear.png</iconset>
    </property>
    <property name="text">
     <string>Clear output</string>
@@ -238,7 +238,7 @@ p, li { white-space: pre-wrap; }
   <action name="newAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/document-new-16x16.png</normaloff>:/icons/img/document-new-16x16.png</iconset>
+     <normaloff>:/icons/img/document-new.png</normaloff>:/icons/img/document-new.png</iconset>
    </property>
    <property name="text">
     <string>New...</string>
@@ -250,7 +250,7 @@ p, li { white-space: pre-wrap; }
   <action name="exitAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/system-log-out-16x16.png</normaloff>:/icons/img/system-log-out-16x16.png</iconset>
+     <normaloff>:/icons/img/system-log-out.png</normaloff>:/icons/img/system-log-out.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -271,18 +271,24 @@ p, li { white-space: pre-wrap; }
   </action>
   <action name="importDataAction">
    <property name="text">
-    <string>Import data...</string>
+    <string>Import pattern...</string>
+   </property>
+   <property name="toolTip">
+    <string>Import pattern</string>
    </property>
   </action>
   <action name="exportDataAction">
    <property name="text">
-    <string>Export data...</string>
+    <string>Export pattern...</string>
+   </property>
+   <property name="toolTip">
+    <string>Export pattern</string>
    </property>
   </action>
   <action name="aboutAction">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/icons/img/info-16x16.png</normaloff>:/icons/img/info-16x16.png</iconset>
+     <normaloff>:/icons/img/dialog-information.png</normaloff>:/icons/img/dialog-information.png</iconset>
    </property>
    <property name="text">
     <string>About...</string>

@@ -14,10 +14,10 @@ OutputTableWidget::OutputTableWidget(QWidget *parent) :
     addAction(copyAction);
     contextMenu->addAction(copyAction);
     contextMenu->addSeparator();
-    contextMenu->addAction(
-        QIcon(":/icons/img/autofit-width-16x16.png"),
-        "Resize columns to contents",
-        this, SLOT(resizeColumnsToContents()));
+    resizeColumnsToContentsAction = new QAction(
+        QIcon(":/icons/img/autofit-width.png"), "Resize columns to contents", this);
+    contextMenu->addAction(resizeColumnsToContentsAction);
+    connect(resizeColumnsToContentsAction, SIGNAL(triggered()), this, SLOT(resizeColumnsToContents()));
 }
 
 void OutputTableWidget::contextMenuEvent(QContextMenuEvent *event)
@@ -28,6 +28,12 @@ void OutputTableWidget::contextMenuEvent(QContextMenuEvent *event)
         copyAction->setEnabled(false);
     else
         copyAction->setEnabled(true);
+
+    // Enable or disable resize columns to contents action
+    if (rowCount() == 0 || columnCount() == 0)
+        resizeColumnsToContentsAction->setEnabled(false);
+    else
+        resizeColumnsToContentsAction->setEnabled(true);
 
     // Show context menu
     contextMenu->exec(mapToGlobal(event->pos()));

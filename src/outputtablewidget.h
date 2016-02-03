@@ -15,6 +15,7 @@ public:
 private:
     QMenu *contextMenu;
     QAction *copyAction;
+    QAction *resizeColumnsToContentsAction;
 
 private slots:
     void onCopyAction();
