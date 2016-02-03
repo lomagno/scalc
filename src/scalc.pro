@@ -57,7 +57,7 @@ win32 {
 }
 
 unix:macx {
-    ICON = application_icon.icns
+    ICON = img/application_icon_mac.icns
 }
 
 OTHER_FILES += \
