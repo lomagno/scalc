@@ -6,12 +6,12 @@
 #include <QFileInfo>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QTextStream>
 #include "newdialog.h"
 #include "exportdatadialog.h"
 #include "exportcostmatrixdialog.h"
 #include "importcostmatrixdialog.h"
 #include "aboutdialog.h"
-#include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -180,8 +180,10 @@ void MainWindow::onCalculateActionTriggered()
             glp_set_row_bnds(lp, i+nS+1, GLP_FX, d.at(i), 0); // note: the last argument is ignored
 
         // Coefficient matrix
-        int iCoeff[1+1000], jCoeff[1+1000];
-        double coeff[1+1000];
+        unsigned int coeffMatrixArraySize = 2*nS*nD + 1;
+        int *iCoeff = new int[coeffMatrixArraySize];
+        int *jCoeff = new int[coeffMatrixArraySize];
+        double *coeff = new double[coeffMatrixArraySize];
         {
             int w=0;
             for (size_t i=1; i<=nS; ++i)
@@ -255,6 +257,12 @@ void MainWindow::onCalculateActionTriggered()
 
         // Gini index
         gini = giniIndex();
+
+        // Free memory
+        glp_delete_prob(lp);
+        delete[] iCoeff;
+        delete[] jCoeff;
+        delete[] coeff;
     }
 
     // Output    
